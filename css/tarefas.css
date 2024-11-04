@@ -1,0 +1,70 @@
+form {
+    background-color: grey;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo do formulário */
+    height: 400px;
+}
+p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px; /* Espaço entre os campos */
+}
+label {
+    width: 85px; /* Largura fixa para os rótulos */
+    margin-right: 10px; /* Espaço entre o rótulo e o campo */
+}
+#button_submit {
+    background-color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    width: 100px;
+}
+
+#button_submit:hover {
+    background-color: rgb(111, 61, 145);
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    flex: 1;
+}
+textarea {
+    width: 250px;
+    height: 100px;
+    flex: 1;
+    resize: none; /* Impede redimensionamento */
+}
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 80%; /* Ajuste conforme necessário */
+    text-align: left;
+    background-color: #f9f9f9; /* Cor de fundo da tabela */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc; /* Cor das bordas */
+}
+
+th {
+    background-color: rgb(111, 61, 145); /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto no cabeçalho */
+}
+
+td {
+    color: #333; /* Cor do texto nas células */
+}
+
+tr:nth-child(even) {
+    background-color: #e9ecef; /* Cor de fundo das linhas pares */
+}
+
+tr:hover {
+    background-color: #dee2e6; /* Cor ao passar o mouse */
+}
